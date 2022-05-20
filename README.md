@@ -115,7 +115,7 @@ If you don't know already, you can find the URL & port of your web monitor by:
      - Download the source code zip file
      - Extract the contents into the folder in which you want to store and run the server module
 3. Open a Windows Terminal window and run the following command within your Python environment to ensure the required packages are properly installed: `pip install -r requirements.txt`
-4. Open the ***Crypto-Dashboard-Server.py*** code in your editor of choice
+4. Open the ***LiveCryptoDashboard_ServerModule.py*** code in your editor of choice
 5. Scroll to the bottom until you see the line that begins with `anvil.server.connect`
 6. Paste the uplink key that you copied from the Anvil project in double quotes in the location shown
    e.g. the line should look like this: `anvil.server.connect("<your uplink key>")`
