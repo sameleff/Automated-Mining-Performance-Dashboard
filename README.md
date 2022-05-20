@@ -83,8 +83,10 @@ NOTE: Most modern email providers allow you to configure app passwords to enable
 
 The TLS port is recommended.
 
-8. Open the project settings page (click the gear icon in the left pane)
-9. Click the "Server Code" toggle button, then copy the uplink key
+8. Open the project settings page (click the gear icon in the left pane) and select "Uplink..."
+9. Click the "Server Code" toggle button, and write down the uplink key
+10. Open the project setting page (click the gear icon in the left pane) and select "Share app..."
+11. Write down or copy the URL for the private URL link
 
 ### Non-Standard Miner Configuration
 #### Helium Miners
@@ -111,15 +113,15 @@ In the GPUSTATS, NBMiner row:
 If you don't know already, you can find the URL & port of your web monitor by:
 1. Navigating to the folder where you installed NBMiner
 2. Double-clicking the "open_web_monitor.url" file
-3. This will open a webpage of format: http://<your IP>:<your port>
+3. This will open a webpage of format: `http://<your IP>:<your port>`
 
 ## Server Module Setup & Configuration
 1. Ensure Python 3 is installed on the host computer
 2. Download the ServerModule.zip file from the github repository
    - Using Git Bash:
-     - In Windows Explorer, navigate to the folder in which you want to store and run the server module
-     - Right-click and select "Git Bash here"
-     - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+     a. In Windows Explorer, navigate to the folder in which you want to store and run the server module
+     b. Right-click and select "Git Bash here"
+     c. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the server module
    - Using GitHub:
      - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
@@ -131,4 +133,13 @@ If you don't know already, you can find the URL & port of your web monitor by:
 6. Paste the uplink key that you copied from the Anvil project in double quotes in the location shown
    e.g. the line should look like this: `anvil.server.connect("<your uplink key>")`
 7. Configure the dashboard update frequency by changing the value of the variable `tdelta`. Values are in units of minutes. The recommended (and defaul) interval is 30 minutes. Some API sources do not support high frequency queries, and longer intervals will result in longer delays between status updates. 
+
+# Running the Program
+1. Run the ServerModule.py program in Windows Terminal
+2. It should print the following text to the Terminal window:
+   Connecting to wss://anvil.works/uplink
+   Anvil websocket open
+   Connected to "Default environment" as SERVER
+3. Once the server program is operational, you can access the dashboard from any device that can access the web using the private URL link from the Anvil project
+
 
