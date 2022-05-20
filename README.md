@@ -44,6 +44,6 @@ The program is packaged in two parts:
    a. Using Git Bash:
       1. Navigate to the folder in which you want to store the server module
       2. Right-click and select "Git Bash here"
-      3. Run the following command: '''git clone  https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git'''
+      3. Run the following command: 'git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git'
 2. Ensure Python 3 is installed on the host computer
 
