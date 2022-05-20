@@ -55,7 +55,7 @@ The program is packaged in two parts:
    - Create a new account or login to your existing one
    - Navigate to the "My Apps" page (it is located in the top toolbar)
    - Under the large "Create App" button, click the "Import from file link"
-   - Import the Live-Crypto-Dashboard ***(??)*** file
+   - Navigate to the folder where you saved the project files and import the anvil.yaml file stored at \Live_Crypto_Dashboard\anvil.yaml
 
 ## Dashboard Module Configuration
 1. Navigate to the ***Data Tables*** service
