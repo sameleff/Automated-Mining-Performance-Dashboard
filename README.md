@@ -41,9 +41,13 @@ The program is packaged in two parts:
 
 ## Server Module Setup & Configuration:
 1. Download the ServerModule.zip file from the github repository
-   a. Using Git Bash:
-      1. Navigate to the folder in which you want to store the server module
-      2. Right-click and select "Git Bash here"
-      3. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+   - Using Git Bash:
+     1. In Windows Explorer, navigate to the folder in which you want to store and run the server module
+     2. Right-click and select "Git Bash here"
+     3. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+   - Using GitHub:
+     1. Navigate to the project releases page:  https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases
+     2. Download the SourceModule.zip file
+     3. Extract the contents into the folder in which you want to store and run the server module
 2. Ensure Python 3 is installed on the host computer
 
