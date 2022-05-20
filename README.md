@@ -28,11 +28,11 @@ Although multiple options for GPU mining software are available, this program is
 This section describes the system requirements as well as the steps required to configure and use this tool.
 
 ## Requirements
-* Windows 10* with Python 3 installed on a host computer
+* Windows 10[^1] with Python 3 installed on a host computer
 * An Anvil account
 * Stable internet connection on the host computer
 
-* In order to access the NBMiner statistics, the computer running this program must be the same computer that is running the POW miners.
+[^1]: In order to access the NBMiner statistics, the computer running this program must be the same computer that is running the POW miners.
 
 ## Setup
 The program is packaged in two parts:
