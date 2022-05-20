@@ -154,7 +154,7 @@ The dashboard automatically refreshes the current webpage every 1 minute in orde
 ## Today Page
 This page displays current data (using only data from the last update). It summarizes daily earnings for each miner as well as the current status of the miners as well as their respective API's. Whenever a miner or API goes offline, it will be highlighted in red font and bolded.
 
-![Today Page](/assets/ReadmeFiles/Today-Page.png)
+![Today Page](/main/assets/ReadmeFiles/Today-Page.png)
 
 ## Mining History Page
 This page displays a time-series chart that trends the mining reward (in units of each coin) as well as the miner status. The user can select which miner to trend via the dropdown menu in the upper right hand corner of the screen.
