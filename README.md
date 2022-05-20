@@ -78,7 +78,7 @@ The TLS port is recommended.
 
 ### Non-Standard Miner Configuration
 #### Helium Miners
-Enter the name of your hotspot in the *Name* column
+Enter the hyphenated name of your hotspot in the *Name* column (e.g. dandy-strawberry-haddock)
 
 #### PlanetWatch Miners
 Your wallet address must match the address used to connect your device to the Algorand blockchain. This address needs to register transactions when PlanetWatch sends mining rewards.
@@ -105,14 +105,14 @@ If you don't know already, you can find the URL & port of your web monitor by:
 
 ## Server Module Setup & Configuration
 1. Ensure Python 3 is installed on the host computer
-2. Download the ServerModule.zip file from the github repository
+2. Download the the github repository
    - Using Git Bash:
      - In Windows Explorer, navigate to the folder in which you want to store and run the server module
      - Right-click and select "Git Bash here"
      - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
    - Using GitHub:
      - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
-     - Download the ServerModule.zip file
+     - Download the source code zip file
      - Extract the contents into the folder in which you want to store and run the server module
 3. Open a Windows Terminal window and run the following command within your Python environment to ensure the required packages are properly installed: `pip install -r requirements.txt`
 4. Open the ***Crypto-Dashboard-Server.py*** code in your editor of choice
