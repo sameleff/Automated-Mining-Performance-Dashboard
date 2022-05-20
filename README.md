@@ -52,7 +52,7 @@ The program is packaged in two parts:
    - Enter a "Yes" in the *Active* column
    - Enter your public wallet receive address in the *Wallet* column
    - Enter a "Yes" in the *Send Alerts*
-   - See the Non-Standard Miner Configuration section for all non-POW miners
+   - See the [Non-Standard Miner Configuration](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/blob/main/README.md#non-standard-miner-configuration) section for all non-POW miners
 4. Select the **Email_Notify** table
 5. Enter your email address in the fields for both *Send Address* and *Receive Address*
 6. Enter your email account password in the *Password* field
