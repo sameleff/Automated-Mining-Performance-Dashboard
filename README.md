@@ -119,9 +119,9 @@ If you don't know already, you can find the URL & port of your web monitor by:
 1. Ensure Python 3 is installed on the host computer
 2. Download the ServerModule.zip file from the github repository
    - Using Git Bash:
-     a. In Windows Explorer, navigate to the folder in which you want to store and run the server module
-     b. Right-click and select "Git Bash here"
-     c. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+     - In Windows Explorer, navigate to the folder in which you want to store and run the server module
+     - Right-click and select "Git Bash here"
+     - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the server module
    - Using GitHub:
      - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
@@ -142,4 +142,29 @@ If you don't know already, you can find the URL & port of your web monitor by:
    Connected to "Default environment" as SERVER
 3. Once the server program is operational, you can access the dashboard from any device that can access the web using the private URL link from the Anvil project
 
+# Server Usage
+The Terminal window running the server must remain open in order to maintain the link between the server and the dashboard.
+In order to quit the server program press `ctrl + c` within the Terminal window and then type `Y` and `Enter`
 
+# Dashboard Usage
+The dashboard automatically generates 4 pages that summarize different aspects of the performance history. The user can select the page using the menu pane on the left side of the screen. The last option within this menu is titled **UPDATE DATA**. Selecting this option will send a command to the server code to perform an unscheduled data update. The current dashboard page will automatically refresh once the update is completed. Future scheduled updates will still proceed as normal.
+
+The dashboard automatically refreshes the current webpage every 1 minute in order to ensure that it does not go to sleep. 
+
+## Today Page
+This page displays current data (using only data from the last update). It summarizes daily earnings for each miner as well as the current status of the miners as well as their respective API's. Whenever a miner or API goes offline, it will be highlighted in red font and bolded.
+
+
+
+## Mining History Page
+This page displays a time-series chart that trends the mining reward (in units of each coin) as well as the miner status. The user can select which miner to trend via the dropdown menu in the upper right hand corner of the screen.
+
+## Price History Page
+This page displays a time-series chart that trends the price history of each coin that the server code is tracking. The user can choose to display all coins or any subset of them by deselecting them from the chart legend or by using the dropdown menu in the upper right hand corner of the screen.
+
+## GPU Health Page
+This page displays a time-series chart that trends several critical performance criteria for GPU miners. The user can select which GPU to display (for those with multi-GPU rigs) as well as two data fields using the dropdown menus in the upper right hand corner of the screen. The available data that can be displayed is:
+* Hashrate in MH/s
+* Power in W
+* Temperature in C
+* Efficiency in H/s per W
