@@ -12,13 +12,22 @@ The program is written in Python and requires an Anvil account in order to utili
 
 # Accessible Data:
 This program can currently access data from the following sources:
-| Miner Type | Mining Pool / API | Coin |
-| ---------- | ----------------- | ---- |
-| Proof-of-Work (POW)	| Ethermine	| Ethereum (ETH)|
-| Proof-of-Work (POW)	| Nanopool	| Ethereum (ETH)|
-| Proof-of-Work (POW) |	Nanopool	| Ergo (ERG)|
-| Proof-of-Work (POW) | 	MoneroOcean	| Monero (XMR)|
-| Proof-of-Storage (PoST)	| SpacePool	| Chia (XCH)|
-| Proof-of-Coverage (POC)	| Helium Explorer	| Helium (HNT)|
-| Data Quality	| AlgoExplorer	| PlanetWatch (PLANETS)|
+| Mining Pool / API | Coin |
+| ----------------- | ---- |
+| Ethermine	| Ethereum (ETH)|
+| Nanopool	| Ethereum (ETH)|
+|	Nanopool	| Ergo (ERG)|
+| MoneroOcean	| Monero (XMR)|
+| SpacePool	| Chia (XCH)|
+| Helium Explorer	| Helium (HNT)|
+| AlgoExplorer	| PlanetWatch (PLANETS)|
 
+Although multiple options for GPU mining software are available, this program is currently only able to access the status information for NBMiner. Future updates plan to enable access to other major GPU mining software (such as T-Rex, Nanominer, etc.).
+
+# Installation
+This section describes the system requirements as well as the steps required to configure and use this tool.
+
+## Requirements:
+* Windows 10* with Python 3 installed on a host computer
+* An Anvil account
+* Stable internet connection on the host computer
