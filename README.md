@@ -74,6 +74,7 @@ The program is packaged in two parts:
    b. [Microsoft (Outlook)](https://support.microsoft.com/en-us/account-billing/manage-app-passwords-for-two-step-verification-d6dc8c6d-4bf7-4851-ad95-6d07799387e9)
    c. [Yahoo](https://my.help.yahoo.com/kb/account/generate-third-party-passwords-sln15241.html)
 7. Enter your SMTP Server and Port number. These vary by provider. Here are the values for the same 3 popular email providers:
+
 | Provider| Server | SSL Port | TLS Port |
 | ------- | ------ | -------- | -------- |
 | Google/Gmail | smtp.gmail.com | 465 | 587 |
