@@ -31,3 +31,19 @@ This section describes the system requirements as well as the steps required to 
 * Windows 10* with Python 3 installed on a host computer
 * An Anvil account
 * Stable internet connection on the host computer
+
+* In order to access the NBMiner statistics, the computer running this program must be the same computer that is running the POW miners.
+
+## Setup:
+The program is packaged in two parts:
+1. A “server” module that runs in a windows environment. This module connects to the desired API’s, captures and pushes the data to the “dashboarding” module, and sends status alerts.
+2. A “dashboarding” module that runs within as an Anvil dashboard.
+
+## Server Module Setup & Configuration:
+1. Download the ServerModule.zip file from the github repository
+   a. Using Git Bash:
+      1. Navigate to the folder in which you want to store the server module
+      2. Right-click and select "Git Bash here"
+      3. Run the following command: '''git clone  https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git'''
+2. Ensure Python 3 is installed on the host computer
+
