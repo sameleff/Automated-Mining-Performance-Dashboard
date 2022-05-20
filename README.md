@@ -95,8 +95,8 @@ Your wallet address must match the address used to connect your device to the Al
 1. Open your pool login link in a webpage
    a. You can find your login link by following [these](https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-User-Guide) instructions from Chia
 2. In the Account Settings popup:
-   a. In the Account Alias field, name your account.
-   b. Click "Request API Key" under the Developer API Key section and complete the process. This program queries data every 30 minutes, but SpacePool only asks so they can estimate the API request load on their servers.
+   - In the Account Alias field, name your account.
+   - Click "Request API Key" under the Developer API Key section and complete the process. This program queries data every 30 minutes, but SpacePool only asks so they can estimate the API request load on their servers.
 3. Enter your developer key in the *Wallet* field
 4. Enter your Account Alias in the *Name* field
 
