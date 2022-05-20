@@ -43,7 +43,7 @@ The program is packaged in two parts:
 1. Create an Anvil account
    - Navigate to the [Anvil](https://anvil.works/login) webpage
    - Create a new account or login to your existing one
-2. Open this link to clone the dashboard: [Live Crypto Dashboard](https://anvil.works/build#clone:N52AWUUUTEUG2MUZ=5LKIAZVIKUXPRJXCTVWIG2NN)
+2. Open this link to clone the dashboard: [Live Crypto Dashboard](https://anvil.works/build#clone:N52AWUUUTEUG2MUZ=5LKIAZVIKUXPRJXCTVWIG2NN) and click "Make Copy"
 
 ## Dashboard Module Configuration
 1. Navigate to the ***Data Tables*** service
@@ -110,7 +110,6 @@ If you don't know already, you can find the URL & port of your web monitor by:
      - In Windows Explorer, navigate to the folder in which you want to store and run the server module
      - Right-click and select "Git Bash here"
      - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
-        NOTE: This command will download all files associated with this project, not just those associated with the server module
    - Using GitHub:
      - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
      - Download the ServerModule.zip file
