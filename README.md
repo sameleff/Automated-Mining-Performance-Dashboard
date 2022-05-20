@@ -45,7 +45,7 @@ The program is packaged in two parts:
      - In Windows Explorer, navigate to the folder in which you want to store your project files
      - Right-click and select "Git Bash here"
      - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
-       NOTE: This command will download all files associated with this project, not just those associated with the dashboard module
+     NOTE: This command will download all files associated with this project, not just those associated with the dashboard module
    - Using GitHub:
      - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
      - Download the DashboardModule.zip file
