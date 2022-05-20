@@ -37,7 +37,7 @@ This section describes the system requirements as well as the steps required to 
 ## Setup
 The program is packaged in two parts:
 1. A “server” module that runs in a windows environment. This module connects to the desired API’s, captures and pushes the data to the “dashboarding” module, and sends status alerts.
-2. A “dashboarding” module that runs within as an Anvil dashboard.
+2. A “dashboarding” module that runs as an Anvil dashboard.
 
 ## Dashboard Module Setup
 1. Create an Anvil account
