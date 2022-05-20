@@ -159,8 +159,12 @@ This page displays current data (using only data from the last update). It summa
 ## Mining History Page
 This page displays a time-series chart that trends the mining reward (in units of each coin) as well as the miner status. The user can select which miner to trend via the dropdown menu in the upper right hand corner of the screen.
 
+![Mining History Page](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/blob/main/ReadmeFiles/Mining-History-Page.PNG)
+
 ## Price History Page
 This page displays a time-series chart that trends the price history of each coin that the server code is tracking. The user can choose to display all coins or any subset of them by deselecting them from the chart legend or by using the dropdown menu in the upper right hand corner of the screen.
+
+![Price History Page](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/blob/main/ReadmeFiles/Price-History-Page.PNG)
 
 ## GPU Health Page
 This page displays a time-series chart that trends several critical performance criteria for GPU miners. The user can select which GPU to display (for those with multi-GPU rigs) as well as two data fields using the dropdown menus in the upper right hand corner of the screen. The available data that can be displayed is:
@@ -168,3 +172,5 @@ This page displays a time-series chart that trends several critical performance 
 * Power in W
 * Temperature in C
 * Efficiency in H/s per W
+
+![GPU Health Page](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/blob/main/ReadmeFiles/GPU-Health-Page.PNG)
