@@ -42,20 +42,20 @@ The program is packaged in two parts:
 ## Dashboard Module Setup
 1. Download the DashboardModule.zip file from the github repository
    - Using Git Bash:
-     a. In Windows Explorer, navigate to the folder in which you want to store your project files
-     b. Right-click and select "Git Bash here"
-     c. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+     - In Windows Explorer, navigate to the folder in which you want to store your project files
+     - Right-click and select "Git Bash here"
+     - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the dashboard module
    - Using GitHub:
-     a. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
-     b. Download the DashboardModule.zip file
-     c. Extract the contents into the folder in which you want to store your project files
+     - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
+     - Download the DashboardModule.zip file
+     - Extract the contents into the folder in which you want to store your project files
 2. Create an Anvil account
-   a. Navigate to the [Anvil](https://anvil.works/login) webpage
-   b. Create a new account or login to your existing one
-   c. Navigate to the "My Apps" page (it is located in the top toolbar)
-   d. Under the large "Create App" button, click the "Import from file link"
-   e. Import the Live-Crypto-Dashboard ***(??)*** file
+   - Navigate to the [Anvil](https://anvil.works/login) webpage
+   - Create a new account or login to your existing one
+   - Navigate to the "My Apps" page (it is located in the top toolbar)
+   - Under the large "Create App" button, click the "Import from file link"
+   - Import the Live-Crypto-Dashboard ***(??)*** file
 
 ## Dashboard Module Configuration
 1. Navigate to the ***Data Tables*** service
@@ -122,9 +122,9 @@ If you don't know already, you can find the URL & port of your web monitor by:
      - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the server module
    - Using GitHub:
-     a. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
-     b. Download the ServerModule.zip file
-     c. Extract the contents into the folder in which you want to store and run the server module
+     - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
+     - Download the ServerModule.zip file
+     - Extract the contents into the folder in which you want to store and run the server module
 3. Open a Windows Terminal window and run the following command within your Python environment to ensure the required packages are properly installed: `pip install -r requirements.txt`
 4. Open the ***Crypto-Dashboard-Server.py*** code in your editor of choice
 5. Scroll to the bottom until you see the line that begins with `anvil.server.connect`
