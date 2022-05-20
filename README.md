@@ -41,15 +41,15 @@ The program is packaged in two parts:
 
 ## Dashboard Module Setup
 1. Download the DashboardModule.zip file from the github repository
-   a. Using Git Bash:
-      - In Windows Explorer, navigate to the folder in which you want to store your project files
-      - Right-click and select "Git Bash here"
-      - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+   - Using Git Bash:
+     a. In Windows Explorer, navigate to the folder in which you want to store your project files
+     b. Right-click and select "Git Bash here"
+     c. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the dashboard module
-   b. Using GitHub:
-      - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
-      - Download the DashboardModule.zip file
-      - Extract the contents into the folder in which you want to store your project files
+   - Using GitHub:
+     a. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
+     b. Download the DashboardModule.zip file
+     c. Extract the contents into the folder in which you want to store your project files
 2. Create an Anvil account
    a. Navigate to the [Anvil](https://anvil.works/login) webpage
    b. Create a new account or login to your existing one
@@ -61,18 +61,18 @@ The program is packaged in two parts:
 1. Navigate to the ***Data Tables*** service
 2. Select the **Active_Miners** table
 3. Next to each miner that you want to monitor:
-   a. Enter a "Yes" in the *Active* column
-   b. Enter your public wallet receive address in the *Wallet* column
-   c. Enter a "Yes" in the *Send Alerts*
-   d. See the Non-Standard Miner Configuration section for all non-POW miners
+   - Enter a "Yes" in the *Active* column
+   - Enter your public wallet receive address in the *Wallet* column
+   - Enter a "Yes" in the *Send Alerts*
+   - See the Non-Standard Miner Configuration section for all non-POW miners
 4. Select the **Email_Notify** table
 5. Enter your email address in the fields for both *Send Address* and *Receive Address*
 6. Enter your email account password in the *Password* field
-   NOTE: Most modern email providers allow you to configure app passwords to enable programatic access to your email account. App passwords are recommended in order to protect your main account password.
+NOTE: Most modern email providers allow you to configure app passwords to enable programatic access to your email account. App passwords are recommended in order to protect your main account password.
    Here are several links for instructions to create app passwords for the three major email providers:
-   a. [Google (Gmail)](https://support.google.com/accounts/answer/185833?hl=en)
-   b. [Microsoft (Outlook)](https://support.microsoft.com/en-us/account-billing/manage-app-passwords-for-two-step-verification-d6dc8c6d-4bf7-4851-ad95-6d07799387e9)
-   c. [Yahoo](https://my.help.yahoo.com/kb/account/generate-third-party-passwords-sln15241.html)
+   - [Google (Gmail)](https://support.google.com/accounts/answer/185833?hl=en)
+   - [Microsoft (Outlook)](https://support.microsoft.com/en-us/account-billing/manage-app-passwords-for-two-step-verification-d6dc8c6d-4bf7-4851-ad95-6d07799387e9)
+   - [Yahoo](https://my.help.yahoo.com/kb/account/generate-third-party-passwords-sln15241.html)
 7. Enter your SMTP Server and Port number. These vary by provider. Here are the values for the same 3 popular email providers:
 
 | Provider| Server | SSL Port | TLS Port |
@@ -96,10 +96,10 @@ Your wallet address must match the address used to connect your device to the Al
 #### Chia Miners
 ##### SpacePool
 1. Open your pool login link in a webpage
-   a. You can find your login link by following [these](https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-User-Guide) instructions from Chia
+   - You can find your login link by following [these](https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-User-Guide) instructions from Chia
 2. In the Account Settings popup:
-   a. In the Account Alias field, name your account.
-   b. Click "Request API Key" under the Developer API Key section and complete the process. This program queries data every 30 minutes, but SpacePool only asks so they can estimate the API request load on their servers.
+   - In the Account Alias field, name your account.
+   - Click "Request API Key" under the Developer API Key section and complete the process. This program queries data every 30 minutes, but SpacePool only asks so they can estimate the API request load on their servers.
 3. Enter your developer key in the *Wallet* field
 4. Enter your Account Alias in the *Name* field
 
@@ -116,15 +116,15 @@ If you don't know already, you can find the URL & port of your web monitor by:
 ## Server Module Setup & Configuration
 1. Ensure Python 3 is installed on the host computer
 2. Download the ServerModule.zip file from the github repository
-   a. Using Git Bash:
-      - In Windows Explorer, navigate to the folder in which you want to store and run the server module
-      - Right-click and select "Git Bash here"
-      - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+   - Using Git Bash:
+     a. In Windows Explorer, navigate to the folder in which you want to store and run the server module
+     b. Right-click and select "Git Bash here"
+     c. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the server module
-   b. Using GitHub:
-      - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
-      - Download the ServerModule.zip file
-      - Extract the contents into the folder in which you want to store and run the server module
+   - Using GitHub:
+     a. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
+     b. Download the ServerModule.zip file
+     c. Extract the contents into the folder in which you want to store and run the server module
 3. Open a Windows Terminal window and run the following command within your Python environment to ensure the required packages are properly installed: `pip install -r requirements.txt`
 4. Open the ***Crypto-Dashboard-Server.py*** code in your editor of choice
 5. Scroll to the bottom until you see the line that begins with `anvil.server.connect`
