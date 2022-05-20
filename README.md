@@ -47,7 +47,7 @@ The program is packaged in two parts:
      c. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the dashboard module
    - Using GitHub:
-     a. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
+     a. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
      b. Download the DashboardModule.zip file
      c. Extract the contents into the folder in which you want to store your project files
 2. Create an Anvil account
@@ -117,12 +117,12 @@ If you don't know already, you can find the URL & port of your web monitor by:
 1. Ensure Python 3 is installed on the host computer
 2. Download the ServerModule.zip file from the github repository
    - Using Git Bash:
-     a. In Windows Explorer, navigate to the folder in which you want to store and run the server module
-     b. Right-click and select "Git Bash here"
-     c. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+      a. In Windows Explorer, navigate to the folder in which you want to store and run the server module
+      b. Right-click and select "Git Bash here"
+      c. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the server module
    - Using GitHub:
-     a. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
+     a. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
      b. Download the ServerModule.zip file
      c. Extract the contents into the folder in which you want to store and run the server module
 3. Open a Windows Terminal window and run the following command within your Python environment to ensure the required packages are properly installed: `pip install -r requirements.txt`
