@@ -41,21 +41,21 @@ The program is packaged in two parts:
 
 ## Dashboard Module Setup
 1. Download the DashboardModule.zip file from the github repository
-   - Using Git Bash:
-     1. In Windows Explorer, navigate to the folder in which you want to store your project files
-     2. Right-click and select "Git Bash here"
-     3. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+   a. Using Git Bash:
+      - In Windows Explorer, navigate to the folder in which you want to store your project files
+      - Right-click and select "Git Bash here"
+      - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the dashboard module
-   - Using GitHub:
-     1. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
-     2. Download the DashboardModule.zip file
-     3. Extract the contents into the folder in which you want to store your project files
+   b. Using GitHub:
+      - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
+      - Download the DashboardModule.zip file
+      - Extract the contents into the folder in which you want to store your project files
 2. Create an Anvil account
-   - Navigate to the [Anvil](https://anvil.works/login) webpage
-   - Create a new account or login to your existing one
-   - Navigate to the "My Apps" page (it is located in the top toolbar)
-   - Under the large "Create App" button, click the "Import from file link"
-   - Import the Live-Crypto-Dashboard (??) file
+   a. Navigate to the [Anvil](https://anvil.works/login) webpage
+   b. Create a new account or login to your existing one
+   c. Navigate to the "My Apps" page (it is located in the top toolbar)
+   d. Under the large "Create App" button, click the "Import from file link"
+   e. Import the Live-Crypto-Dashboard (??) file
 
 ## Dashboard Module Configuration
 1. Navigate to the ***Data Tables*** service
@@ -95,8 +95,8 @@ Your wallet address must match the address used to connect your device to the Al
 1. Open your pool login link in a webpage
    a. You can find your login link by following [these](https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-User-Guide) instructions from Chia
 2. In the Account Settings popup:
-   - In the Account Alias field, name your account.
-   - Click "Request API Key" under the Developer API Key section and complete the process. This program queries data every 30 minutes, but SpacePool only asks so they can estimate the API request load on their servers.
+   a. In the Account Alias field, name your account.
+   b. Click "Request API Key" under the Developer API Key section and complete the process. This program queries data every 30 minutes, but SpacePool only asks so they can estimate the API request load on their servers.
 3. Enter your developer key in the *Wallet* field
 4. Enter your Account Alias in the *Name* field
 
@@ -113,15 +113,15 @@ If you don't know already, you can find the URL & port of your web monitor by:
 ## Server Module Setup & Configuration
 1. Ensure Python 3 is installed on the host computer
 2. Download the ServerModule.zip file from the github repository
-   - Using Git Bash:
-     1. In Windows Explorer, navigate to the folder in which you want to store and run the server module
-     2. Right-click and select "Git Bash here"
-     3. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+   a. Using Git Bash:
+      - In Windows Explorer, navigate to the folder in which you want to store and run the server module
+      - Right-click and select "Git Bash here"
+      - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the server module
-   - Using GitHub:
-     1. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
-     2. Download the ServerModule.zip file
-     3. Extract the contents into the folder in which you want to store and run the server module
+   b. Using GitHub:
+      - Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page:
+      - Download the ServerModule.zip file
+      - Extract the contents into the folder in which you want to store and run the server module
 3. Open a Windows Terminal window and run the following command within your Python environment to ensure the required packages are properly installed: `pip install -r requirements.txt`
 4. 
 
