@@ -55,7 +55,7 @@ The program is packaged in two parts:
    b. Create a new account or login to your existing one
    c. Navigate to the "My Apps" page (it is located in the top toolbar)
    d. Under the large "Create App" button, click the "Import from file link"
-   e. Import the Live-Crypto-Dashboard (??) file
+   e. Import the Live-Crypto-Dashboard ***(??)*** file
 
 ## Dashboard Module Configuration
 1. Navigate to the ***Data Tables*** service
@@ -83,6 +83,9 @@ The program is packaged in two parts:
 
 The TLS port is recommended.
 
+8. Open the project settings page (click the gear icon in the left pane)
+9. Click the "Server Code" toggle button, then copy the uplink key
+
 ### Non-Standard Miner Configuration
 #### Helium Miners
 Enter the name of your hotspot in the *Name* column
@@ -91,7 +94,7 @@ Enter the name of your hotspot in the *Name* column
 Your wallet address must match the address used to connect your device to the Algorand blockchain. This address needs to register transactions when PlanetWatch sends mining rewards.
 
 #### Chia Miners
-##### Spacepool
+##### SpacePool
 1. Open your pool login link in a webpage
    a. You can find your login link by following [these](https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-User-Guide) instructions from Chia
 2. In the Account Settings popup:
@@ -123,5 +126,9 @@ If you don't know already, you can find the URL & port of your web monitor by:
       - Download the ServerModule.zip file
       - Extract the contents into the folder in which you want to store and run the server module
 3. Open a Windows Terminal window and run the following command within your Python environment to ensure the required packages are properly installed: `pip install -r requirements.txt`
-4. 
+4. Open the ***Crypto-Dashboard-Server.py*** code in your editor of choice
+5. Scroll to the bottom until you see the line that begins with `anvil.server.connect`
+6. Paste the uplink key that you copied from the Anvil project in double quotes in the location shown
+   e.g. the line should look like this: `anvil.server.connect("<your uplink key>")`
+7. Configure the dashboard update frequency by changing the value of the variable `tdelta`. Values are in units of minutes. The recommended (and defaul) interval is 30 minutes. Some API sources do not support high frequency queries, and longer intervals will result in longer delays between status updates. 
 
