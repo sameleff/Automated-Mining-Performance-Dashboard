@@ -117,9 +117,9 @@ If you don't know already, you can find the URL & port of your web monitor by:
 1. Ensure Python 3 is installed on the host computer
 2. Download the ServerModule.zip file from the github repository
    - Using Git Bash:
-      a. In Windows Explorer, navigate to the folder in which you want to store and run the server module
-      b. Right-click and select "Git Bash here"
-      c. Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
+     - In Windows Explorer, navigate to the folder in which you want to store and run the server module
+     - Right-click and select "Git Bash here"
+     - Run the following command: `git clone https://github.com/sameleff/Automated-Mining-Performance-Dashboard.git`
         NOTE: This command will download all files associated with this project, not just those associated with the server module
    - Using GitHub:
      a. Navigate to the [releases](https://github.com/sameleff/Automated-Mining-Performance-Dashboard/releases) page
