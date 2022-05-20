@@ -3,14 +3,14 @@ The Automated Mining Performance Dashboard tool can be used to store and display
 
 The program is written in Python and requires an Anvil account in order to utilize the dashboarding features.
 
-# Features:
+# Features
 *	Automated real-time mining performance tracking
 *	Web-based dashboarding
 *	Real-time mining status alerts
 *	Ability to track multiple coins, pools, and mining software
 *	Automatic cryptocurrency price trending
 
-# Accessible Data:
+# Accessible Data
 This program can currently access data from the following sources:
 | Mining Pool / API | Coin |
 | ----------------- | ---- |
@@ -27,14 +27,14 @@ Although multiple options for GPU mining software are available, this program is
 # Installation
 This section describes the system requirements as well as the steps required to configure and use this tool.
 
-## Requirements:
+## Requirements
 * Windows 10* with Python 3 installed on a host computer
 * An Anvil account
 * Stable internet connection on the host computer
 
 * In order to access the NBMiner statistics, the computer running this program must be the same computer that is running the POW miners.
 
-## Setup:
+## Setup
 The program is packaged in two parts:
 1. A “server” module that runs in a windows environment. This module connects to the desired API’s, captures and pushes the data to the “dashboarding” module, and sends status alerts.
 2. A “dashboarding” module that runs within as an Anvil dashboard.
@@ -57,7 +57,7 @@ The program is packaged in two parts:
    - Under the large "Create App" button, click the "Import from file link"
    - Import the Live-Crypto-Dashboard (??) file
 
-## Dashboard Module Configuration:
+## Dashboard Module Configuration
 1. Navigate to the ***Data Tables*** service
 2. Select the **Active_Miners** table
 3. Next to each miner that you want to monitor:
@@ -108,7 +108,7 @@ If you don't know already, you can find the URL & port of your web monitor by:
 2. Double-clicking the "open_web_monitor.url" file
 3. This will open a webpage of format: http://<your IP>:<your port>
 
-## Server Module Setup & Configuration:
+## Server Module Setup & Configuration
 1. Ensure Python 3 is installed on the host computer
 2. Download the ServerModule.zip file from the github repository
    - Using Git Bash:
