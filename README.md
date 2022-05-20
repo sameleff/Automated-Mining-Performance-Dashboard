@@ -80,6 +80,7 @@ The program is packaged in two parts:
 | Google/Gmail | smtp.gmail.com | 465 | 587 |
 | Microsoft/Outlook | smtp-mail.outlook.com | 465 | 587|
 | Yahoo | smtp.mail.yahoo.com | 465 | 587 |
+
 The TLS port is recommended.
 
 ### Non-Standard Miner Configuration
